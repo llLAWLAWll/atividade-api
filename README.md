@@ -1,24 +1,15 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
 
-Things you may want to cover:
 
-* Ruby version
+* Rails 8.0.1
+* ruby 3.3.6
+* SQLite 3.47.2
 
-* System dependencies
 
-* Configuration
+* Gems
+  - gem 'pagy', '~> 9.3'
+  - gem 'sqlite3'
+  - gem 'ransack'
 
-* Database creation
 
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
