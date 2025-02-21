@@ -1,0 +1,14 @@
+version: '3'
+
+services:
+  web:
+    build: .
+    container_name: cn-teste-atividade-api
+    ports:
+      - "5000:3000"
+    volumes:
+      - .:/app
+      - /usr/local/bundle
+      - db_data:/app/db
+volumes:
+  db_data:
